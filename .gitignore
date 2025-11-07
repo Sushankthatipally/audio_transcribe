@@ -1,3 +1,45 @@
-SONAR/
-test/
-test2/
+# Audio files (large)
+TG/
+*.wav
+*.mp3
+*.flac
+
+# Cache and temporary files
+.seamless_cache/
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+.venv311/
+venv/
+env/
+ENV/
+
+# Model cache (large files)
+.cache/
+models/
+checkpoints/
+
+# Large output files
+seamless_translations.txt
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+
+# Keep results but ignore large files
+results/*.png
+results/*.jpg
+results/*.pdf

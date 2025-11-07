@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "model": "SeamlessM4T-v2-large",
+    "source_language": "Telugu",
+    "target_language": "English",
+    "matched_pairs": 2665,
+    "total_model_translations": 2665,
+    "total_human_references": 2667,
+    "evaluation_date": "2025-11-07T09:04:38.292367"
+  },
+  "metrics": {
+    "bleu": 14.65,
+    "chrf": 42.61,
+    "ter": 98.67,
+    "wer": 1.1339,
+    "cer": 0.8297,
+    "rouge1_f1": 0.4578,
+    "rouge2_f1": 0.2359,
+    "rougeL_f1": 0.4005,
+    "meteor": 0.3615,
+    "bertscore_precision": 0.904,
+    "bertscore_recall": 0.9068,
+    "bertscore_f1": 0.9052
+  }
+}
